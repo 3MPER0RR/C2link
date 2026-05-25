@@ -1,7 +1,7 @@
 # C2Link
 
 A lightweight Command & Control (C2) framework for red teaming labs and educational purposes.  
-**Implant** written in **Nim**, **Team Server** written in **Python (Flask)**.
+**c2link** written in **Nim**, **Team Server** written in **Python (Flask)**.
 
 ## Features
 
