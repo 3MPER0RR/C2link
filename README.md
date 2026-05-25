@@ -25,6 +25,8 @@ cd server
 pip3 install flask
 python3 c2link_server.py
 
+open localhost:5000 control panel
+
 Server listens on http://0.0.0.0:5000
 
 nim c c2link.nim ( only compile )
@@ -41,7 +43,5 @@ nim c -d:mingw --cpu:amd64 -d:release --opt:size --strip -o:c2link.exe c2link.ni
 
 
 ./c2link 192.x.x.x insert the target ip ( default 127.0.0.1 )
-
-open localhost:5000 control panel
 
 command es whoami, ls 
