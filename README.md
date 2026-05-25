@@ -33,7 +33,7 @@ nim c -r c2link.nim ( compile + start c2 )
 
 
 For Linux / macOS (native):
-cd implant
+cd cd2link
 nim c -d:release --opt:size --strip c2link.nim
 
 For Windows (cross‑compile from Linux/macOS):
